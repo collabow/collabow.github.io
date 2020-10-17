@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collabow Web Studio</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/global.css">
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+</head>
+<body>
+    <div class="menu">
+        <div class="menuItem" style="margin: 7px 5px 0px 5px;" onclick="scrollToTop()"><img src="img/svg/male.svg">О нас</div>
+        <div class="menuItem" style="margin: 7px 5px 0px 5px;" onclick="scrollToMiddle()"><img src="img/svg/ok.svg">Преимущества</div>
+        <div class="menuItem" style="margin: 7px 5px 0px 5px;" onclick="scrollToRates()"><img src="img/svg/buy.svg">Тарифы</div>
+        <div class="menuItem" style="margin: 7px 5px 5px 5px;" onclick="scrollToBottom()"><img src="img/svg/handshake.svg">Контакты</div>
+    </div>
+    <header>
+        <div class="headerItem">
+
+            <div class="burgerWrapper bwon" onclick="toggleBurger()">
+                <div class="burgerButton">
+                    <div class="buttonItem bi1" style="margin-bottom: 5px;"></div>
+                    <div class="buttonItem bi2" style="margin-bottom: 5px;"></div>
+                    <div class="buttonItem bi3"></div>
+                </div>
+            </div>
+
+            <div class="mainLogo" style="background-image: url(img/logo.png);" onclick="location.href='';"></div>
+
+            <div class="orderButtonWrapper">
+                <div class="orderButton" onclick="scrollToBottom()">
+                    <div>Заказать</div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="all all1">
+
+        <section class="n1Sect">
+
+            <div class="n1Text">
+                <div class="sectHeader">Мы делаем сайты,</div>
+                <div class="sectHeader">которые работают</div>
+                <br>
+                <div class="sectContent">Мы - команда опытных веб-разработчиков и дизайнеров, более двух лет воплощающих в жизнь проекты, отвечающие современным требованиям и, конечно же, требованиям заказчика. Мы готовы предложить вам свои услуги по созданию сайтов и веб-приложений.</div>
+                <br>
+                <div class="orderButton order1" onclick="scrollToBottom()">
+                    <div>Заказать сайт</div>
+                </div>
+            </div>
+
+            <div class="n1Photo">
+                <img src="img/n1Photo.png">
+            </div>
+
+        </section>
+
+    </section>
+
+    <section class="all all2">
+
+        <section class="n1Sect">
+
+            <div class="n2Photo">
+                <div class="n2PhotoWrapper">
+                    <img src="img/n2Photo.png">
+                </div>
+                <div class="photoComment">HTML 5, CSS 3, JavaScript, Python 3,</div>
+                <div class="photoComment">фреймворк Django и др.</div>
+            </div>
+
+            <div class="n2Text">
+                <div class="sectHeader mlauto">Лучшие в своем классе</div>
+                <div class="sectHeader mlauto">технологии веб-разработки</div>
+                <br>
+                <div class="sectContent mlauto rightText">Используя проверенные технологии разработки и программный софт, мы гарантируем вам надежную работу вашего сайта, в частности бесперебойный back-end и четкий динамичный front-end.</div>
+                <br>
+                <div class="orderButton order2" onclick="scrollToBottom()">
+                    <div>Попробовать</div>
+                </div>
+            </div>
+            
+
+        </section>
+
+    </section>
+
+    <section class="all">
+
+        <section class="n1Sect">
+
+            <div class="n1Text">
+                <div class="sectHeader">Креативность - наша черта</div>
+                <br>
+                <div class="sectContent">Дизайн - главный коэффициент производительности вашего сайта. Мы сделаем свежий уникальный макет сайта по вашим требованиям и пожеланиям, и мы уверены, что вы останетесь довольны работой наших креативных дизайнеров.</div>
+                <br>
+                <div class="orderButton order1" onclick="scrollToBottom()">
+                    <div>Поехали!</div>
+                </div>
+            </div>
+
+            <div class="n3Photo">
+                <img src="img/n3Photo.png">
+            </div>
+
+        </section>
+
+    </section>
+
+    <section class="all all3">
+
+        <section class="n2Sect">
+
+            <section class="ratesHeader">
+                <div class="ratesHeadHeader">Тарифы</div>
+                <br>
+                <div class="ratesContent">Выберите тариф, соответствующий вашему бизнес-плану и вашему бюджету </div>
+                <br>
+            </section>
+
+            <section class="rates">
+                <div class="rate">
+                    <div class="rateIcon"><img src="img/svg/rocket.svg"></div>
+                    <div class="rateHeader">Старт</div>
+                    <div class="rateContent">Легкий адаптивный одностроничный сайт для вас и вашего бизнеса, индексация сайта</div>
+                    <div class="ratePrice">7 500 руб.</div>
+                    <div class="rateButton">
+                        <div class="rateButtonContent" id="r1" onclick="scrollToBottom()">Выбрать</div>
+                    </div>
+                </div>
+                <div class="rate">
+                    <div class="rateIcon"><img src="img/svg/security_checked.svg"></div>
+                    <div class="rateHeader">Базовый</div>
+                    <div class="rateContent">Многостроничный функциональный адаптивный лендинг с формой обратной связи и др.</div>
+                    <div class="ratePrice">12 500 руб.</div>
+                    <div class="rateButton">
+                        <div class="rateButtonContent" id="r2" onclick="scrollToBottom()">Выбрать</div>
+                    </div>
+                </div>
+                <div class="rate">
+                    <div class="rateIcon"><img src="img/svg/investment.svg"></div>
+                    <div class="rateHeader">Премиум</div>
+                    <div class="rateContent">Кроссплатформенный многостроничный сайт с применением технологий Django, SEO-продвижение</div>
+                    <div class="ratePrice">20 000 руб.</div>
+                    <div class="rateButton">
+                        <div class="rateButtonContent" id="r3" onclick="scrollToBottom()">Выбрать</div>
+                    </div>
+                </div>
+                <div class="rate">
+                    <div class="rateIcon"><img src="img/svg/trophy.svg"></div>
+                    <div class="rateHeader">Максимум +</div>
+                    <div class="rateContent">Мощный высоконагруженный полиструктурный сайт с увеличенным хранилищем, полная SEO-оптимизация</div>
+                    <div class="ratePrice">30 000 руб.</div>
+                    <div class="rateButton">
+                        <div class="rateButtonContent" id="r4" onclick="scrollToBottom()">Выбрать</div>
+                    </div>
+                </div>
+            </section>
+            
+        </section>
+
+    </section>
+
+    <section class="all">
+
+        <section class="n1Sect">
+
+            <div class="n1Text">
+                <div class="sectHeader">Наши контакты</div>
+                <br>
+                <div class="sectContent">Для обратной связи с нами напишите нам на почту, WhatsApp, Direct, VK, звоните с 8 утра до 10 вечера - мы работаем без выходных.</div>
+            </div>
+
+            <div class="requestWrapper">
+                <div class="requests">
+                    <div class="request"  style="padding-top: 10px;">
+                        <div class="requestIcon" onclick="location.href='mailto:vk20040329@yandex.ru';"><img src="img/svg/message.svg"></div>
+                        <div class="requestContent"><a href="mailto:vk20040329@yandex.ru">vk20040329@yandex.ru</a></div>
+                    </div>
+                    <div class="request"  style="padding-top: 10px;">
+                        <div class="requestIcon" onclick="location.href='https://api.whatsapp.com/send?phone=79206995806';"><img src="img/svg/whatsapp.svg"></div>
+                        <div class="requestContent"><a href="https://api.whatsapp.com/send?phone=79206995806">+7 920 699 58 06</a></div>
+                    </div>
+                    <div class="request" style="padding-top: 10px;">
+                        <div class="requestIcon" onclick="location.href='https://www.instagram.com/collabow_studio/';"><img src="img/svg/instagram.svg"></div>
+                        <div class="requestContent"><a href="https://www.instagram.com/collabow_studio/">@collabow_studio</a></div>
+                    </div>
+                    <div class="request" style="padding-top: 10px;">
+                        <div class="requestIcon" onclick="location.href='https://vk.com/collabow';"><img src="img/svg/vk.svg"></div>
+                        <div class="requestContent"><a href="https://vk.com/collabow">vk.com/collabow</a></div>
+                    </div>
+                    <div class="request" style="padding-top: 10px;">
+                        <div class="requestIcon" onclick="location.href='tel:+79206995806';"><img src="img/svg/phone.svg"></div>
+                        <div class="requestContent"><a href="tel:+79206995806">+7 920 699 58 06</a></div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                Collabow © 2020
+            </footer>
+        </section>
+
+    </section>
+
+    <script src="js/dynamics.js"></script>
+
+</body>
+</html>
