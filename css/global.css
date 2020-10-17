@@ -900,14 +900,22 @@
         flex-direction: column;
         justify-content: center;
     }
-    .n3Photo > img{
-        position: absolute;
-    }
+
     .n2Sect{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: calc(100vw - 44px);
+    }
+    .n3Sect{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .n3Text{
         width: calc(100vw - 44px);
     }
     .ratesHeader{
@@ -996,7 +1004,6 @@
         align-items: center;
     }
     .request{
-        /* width: calc(100vw - 44px); */
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1224,14 +1231,21 @@
         flex-direction: column;
         justify-content: center;
     }
-    .n3Photo > img{
-        position: absolute;
-    }
     .n2Sect{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: calc(100vw - 44px);
+    }
+    .n3Sect{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .n3Text{
         width: calc(100vw - 44px);
     }
     .ratesHeader{
