@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://collabow.github.io/sitemap.xml
