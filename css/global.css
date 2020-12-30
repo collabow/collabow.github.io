@@ -339,10 +339,10 @@
         margin-top: calc(100vh - 32px);
         margin-right: calc(50vw - 512px);
     }
-    ::-webkit-scrollbar { width: 4px;}
+    ::-webkit-scrollbar { width: 8px;}
     ::-webkit-scrollbar-button {display: none;}
     ::-webkit-scrollbar-track-piece { background-color: #ffffff;}
-    ::-webkit-scrollbar-thumb { height: 50px; background-color: #000; border-radius: 10px;}
+    ::-webkit-scrollbar-thumb { background-color: #000; border: 2px solid #ffffff; border-radius: 10px;}
 }
 
 
