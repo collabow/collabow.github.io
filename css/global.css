@@ -41,10 +41,9 @@
     .menu{
         color: #fff;
         border-radius: 20px;
-        padding: 5px;
         z-index: 998;
         position: fixed;
-        top: -143px;
+        top: -160px;
         left: calc(50vw - 514px);
         background-color: #000000;
     }
@@ -69,7 +68,7 @@
     .menuItem > img{
         width: 25px;
         height: 25px;
-        margin-right: 8px;
+        margin-right: 12px;
     }
     .burgerButton{
         width: 30px;
@@ -390,10 +389,9 @@
     .menu{
         color: #fff;
         border-radius: 20px;
-        padding: 5px;
         z-index: 998;
         position: fixed;
-        top: -143px;
+        top: -160px;
         left: calc(50vw - 452px);
         background-color: #000000;
     }
@@ -418,7 +416,7 @@
     .menuItem > img{
         width: 25px;
         height: 25px;
-        margin-right: 8px;
+        margin-right: 12px;
     }
     .burgerButton{
         width: 30px;
@@ -731,10 +729,9 @@
     .menu{
         color: #fff;
         border-radius: 20px;
-        padding: 5px;
         z-index: 998;
         position: fixed;
-        top: -143px;
+        top: -160px;
         left: 22px;
         background-color: #000000;
     }
@@ -759,7 +756,7 @@
     .menuItem > img{
         width: 25px;
         height: 25px;
-        margin-right: 8px;
+        margin-right: 12px;
     }
     .burgerButton{
         width: 30px;
@@ -1069,10 +1066,9 @@
     .menu{
         color: #fff;
         border-radius: 20px;
-        padding: 5px;
         z-index: 998;
         position: fixed;
-        top: -143px;
+        top: -160px;
         left: 22px;
         background-color: #000000;
     }
@@ -1097,7 +1093,7 @@
     .menuItem > img{
         width: 25px;
         height: 25px;
-        margin-right: 8px;
+        margin-right: 12px;
     }
     .burgerButton{
         width: 30px;
